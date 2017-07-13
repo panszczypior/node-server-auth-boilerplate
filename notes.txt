@@ -1,0 +1,7 @@
+Authentication flow
+
+Signing up -> verify email is not in use -> JWT
+
+Signing in -> verify email/password -> JWT
+
+Auth'd request -> verify token -> resource access
